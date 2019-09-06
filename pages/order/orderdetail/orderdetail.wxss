@@ -1,0 +1,188 @@
+/* pages/order/orderdetail/orderdetail.wxss */
+.statusBox{
+  padding: 20rpx;
+  background:rgba(255,255,255,1);
+  margin-top: 20rpx;
+}
+.userBox{
+  padding: 20rpx 70rpx 20rpx 20rpx;
+  background:rgba(255,255,255,1);
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.btnSpecialBlock{
+  background: #fff;
+}
+.orderBox{
+  padding: 35rpx 25rpx 0 25rpx;
+  background:rgba(255,255,255,1);
+  margin-top: 20rpx;
+}
+.typeClass {
+  background: #fff;
+  display: inline;
+  border-radius: 15rpx;
+  font-size: 20rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  line-height: 24rpx;
+  margin-left: 20rpx;
+}
+.typeClass view{
+  padding: 0rpx 10rpx;
+  display: inline;
+}
+.otherBox{
+  padding: 44rpx 0 44rpx 28rpx;
+  height:120rpx;
+  background:rgba(255,255,255,1);
+  margin-top: 20rpx;
+  border-radius:5rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.otherBox .fontTitle{
+  color:rgba(102,102,102,1);
+}
+
+
+
+.icon image{
+  width: 46rpx;
+  height: 46rpx;
+}
+.titleBox{
+  display: flex;
+  flex-direction: row;
+}
+.userTitleBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: 800;
+}
+.userContentBox{
+  margin: 10rpx 0 0 40rpx;
+  display: flex;
+  flex-direction: row;
+}
+.userTitleBox .fontTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20rpx;
+}
+.userContentBox .fontTitle{
+}
+.realName{
+  display: flex;
+  flex-direction: row;
+}
+.realName .fontTitle{
+  margin-left: 20rpx;
+}
+.statusBox .fontTitle{
+  margin-left: 20rpx;
+}
+
+.statusBox .fontSpecial{
+  margin-left: 70rpx;
+}
+.statusBox .fontInfo{
+  margin-left: 70rpx;
+}
+.nameText{
+  margin-left: 20rpx;
+}
+.titleText{
+  margin-left: 20rpx;
+}
+.addreType{
+  display: inline;
+  padding:0rpx 13rpx;
+  margin-right: 15rpx;
+  align-self: center;
+  text-align: center;
+  background:rgba(204,0,0,1);
+  border-radius:105rpx;
+  font-size:20rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:24rpx;
+  margin: 0 10rpx 0 10rpx;
+}
+.goodImg image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.goodInfo{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.goodPrice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.goodInfoContentBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10rpx 20rpx 30rpx 30rpx;
+  flex-grow: 1;
+}
+
+.orderPriceInfoBox{
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  background: #fff;
+  border-top: 2rpx solid rgba(245,245,245,1);
+  line-height: 80rpx;
+  justify-content: space-between;
+}
+
+.btnFoot{
+  display: flex;
+  flex-direction: row-reverse;
+  background: #fff;
+  height:99rpx;
+  width: 100%;
+  background:rgba(255,255,255,1);
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+}
+.btnFoot view{
+  margin-right: 30rpx;
+}
+
+.kuaidi{
+  font-size:28rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(28,28,28,1);
+}
+
+.payType{
+  font-size:28rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(28,28,28,1);
+  line-height:48rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.payType view:first-child{
+  margin-right: 10rpx;
+}
+.wuliuItemBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

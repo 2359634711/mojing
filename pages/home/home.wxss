@@ -1,0 +1,8 @@
+/* pages/home/home.wxss */
+
+.imgItem{
+  width: 100%;
+  height: 700rpx;
+  display: block;
+}
+

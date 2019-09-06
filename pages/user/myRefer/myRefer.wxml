@@ -1,0 +1,3 @@
+<!--pages/user/myRefer/myRefer.wxml-->
+<referItem wx:for='{{referList}}' referItem='{{item}}' wx:key='{{item.id}}' />
+<none wx:if='{{referList.length == 0}}' />

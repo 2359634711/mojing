@@ -1,0 +1,2 @@
+<!--pages/sjInfo/sjInfo.wxml-->
+<image src='{{sj_img}}' mode='widthFix'></image>

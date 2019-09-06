@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/refer/refer",
+    "pages/user/user",
+    "pages/order/order",
+    "pages/order/orderdetail/orderdetail",
+    "pages/share/share",
+    "pages/wuliu/wuliu",
+    "pages/address/address",
+    "pages/address/editaddress/editaddress",
+    "pages/money/money",
+    "pages/join/message/message",
+    "pages/join/gifts/gifts",
+    "pages/join/paySuccess/paySuccess",
+    "pages/user/referCenter/referCenter",
+    "pages/detail/detail",
+    "pages/detail/order/order",
+    "pages/detail/paySuccess/paySuccess",
+    "pages/user/levelMsg/levelMsg",
+    "pages/user/myGroup/myGroup",
+    "pages/user/myGroup/groupInfo/index",
+    "pages/user/drawHis/drawHis",
+    "pages/user/draw/draw",
+    "pages/user/freeze/freeze",
+    "pages/user/bindCard/bindCard",
+    "pages/user/chooseCard/chooseCard",
+    "pages/user/incomeInfo/incomeInfo",
+    "pages/user/myRefer/myRefer",
+    "pages/login/login",
+    "pages/recommend/recommend",
+    "pages/djmx/djmx",
+    "pages/sjInfo/sjInfo"
+  ],
+  "subPackages": [
+    {
+      "root": "course",
+      "pages": [
+        "pages/course/course",
+        "pages/comment/comment",
+        "pages/exam/exam",
+        "pages/examResult/examResult",
+        "pages/examUserList/examUserList"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,327 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.4",
+	"appid": "wxa88ddfb9a2cf2105",
+	"projectname": "%E8%86%9C%E5%A9%A7",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 39,
+			"list": [
+				{
+					"id": -1,
+					"name": "refer",
+					"pathName": "pages/refer/refer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "share",
+					"pathName": "pages/share/share",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "order",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "orderDetail",
+					"pathName": "pages/order/orderdetail/orderdetail",
+					"query": "orderId=935",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "wuliu",
+					"pathName": "pages/wuliu/wuliu",
+					"query": "order_sn=SH20190730150023833787",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "address",
+					"pathName": "pages/address/address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "editaddress",
+					"pathName": "pages/address/editaddress/editaddress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "money",
+					"pathName": "pages/money/money",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "message",
+					"pathName": "pages/join/message/message",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "gifts",
+					"pathName": "pages/join/gifts/gifts",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "paySuccess",
+					"pathName": "pages/join/paySuccess/paySuccess",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "refer",
+					"pathName": "pages/refer/refer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": "goodId=2",
+					"scene": null
+				},
+				{
+					"id": 14,
+					"name": "detailorder",
+					"pathName": "pages/detail/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "userreferCenter",
+					"pathName": "pages/user/referCenter/referCenter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "levelMsg",
+					"pathName": "pages/user/levelMsg/levelMsg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "myGroup",
+					"pathName": "pages/user/myGroup/myGroup",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "drawHis",
+					"pathName": "pages/user/drawHis/drawHis",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "draw",
+					"pathName": "pages/user/draw/draw",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "bindCard",
+					"pathName": "pages/user/bindCard/bindCard",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "chooseCard",
+					"pathName": "pages/user/chooseCard/chooseCard",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "referCenter",
+					"pathName": "pages/user/referCenter/referCenter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "freeze",
+					"pathName": "pages/user/freeze/freeze",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "incomeInfo",
+					"pathName": "pages/user/incomeInfo/incomeInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "freeze",
+					"pathName": "pages/user/freeze/freeze",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "groupInfo",
+					"pathName": "pages/user/myGroup/groupInfo/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "recommend",
+					"pathName": "pages/recommend/recommend",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "loading",
+					"pathName": "pages/loading/loading",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "home2",
+					"pathName": "pages/home/home",
+					"query": "memberid=1234321",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "myGroup",
+					"pathName": "pages/user/myGroup/myGroup",
+					"query": "type=1&member_id=123",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "myRefer",
+					"pathName": "pages/user/myRefer/myRefer",
+					"query": "type=1&member_id=123",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "referCenter",
+					"pathName": "pages/user/referCenter/referCenter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "referCenter",
+					"pathName": "pages/user/myGroup/myGroup",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "course",
+					"pathName": "course/pages/course/course",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "sjInfo",
+					"pathName": "pages/sjInfo/sjInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "exam",
+					"pathName": "course/pages/exam/exam",
+					"scene": null
+				}
+			]
+		}
+	}
+}

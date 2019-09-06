@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "银行卡列表",
+  "usingComponents": {
+    "theme-view": "/components/themeView/themeView"
+  }
+}

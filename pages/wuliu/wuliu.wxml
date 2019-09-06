@@ -1,0 +1,30 @@
+<!--pages/wuliu/wuliu.wxml-->
+
+<view class='titleBox'>
+  <view class='titleItem'>
+    <view class='title fontTitle'>物流状态：</view>
+    <view class='value fontSpecial'>运输中</view>
+  </view>
+  <view class='titleItem'>
+    <view class='title fontTitle'>快递公司：</view>
+    <view class='value fontTitle'>{{wuliuInfo.wuliu}}</view>
+  </view>
+  <view class='titleItem'>
+    <view class='title fontTitle'>物流单号：</view>
+    <view class='value fontTitle'>{{wuliuInfo.order_sn}}</view>
+  </view>
+</view>
+
+
+<view class='mainBox'>
+  <view class='mainItem' wx:for='{{wuliuInfo.AcceptStation}}' wx:key='index'>
+    <view class='timeBox'>
+      <view class='time'>{{item.AcceptTime0}}</view>
+      <view class='date'>{{item.AcceptTime1}}</view>
+    </view>
+    <view class='textBox'>
+      <view>{{item.AcceptStation}}</view>
+    </view>
+  </view>
+</view>
+

@@ -9,7 +9,7 @@ let header = {
 };
 Page({
   data: {
-    loadingFlag:false,
+    loadingFlag: false,
     bgImg: "https://oa.yika.co/attachment/images/17/2019/06/Wv60X0KVk6ESk0VY9EZ63Api0VyJ5w.jpg",
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     loginFlag: false
@@ -34,7 +34,12 @@ Page({
       }
     })
   },
-  loading(){
+  loginCancel() {
+    wx.redirectTo({
+      url: '/pages/home/home',
+    })
+  },
+  loading() {
     this.setData({
       loadingFlag: true
     })

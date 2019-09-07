@@ -3,11 +3,12 @@
 <view class='userBox'>
   <image class='bgImg' mode='aspectFill' src='{{bgImg}}'></image>
   <view class='imgBox'>
-    <image src='{{userInfo.info.avatar}}'></image>
+    <image src='{{loginState ? userInfo.info.avatar: "/res/icon/noLogin.png"}}'></image>
   </view>
-  <view class='userName'>{{userInfo.info.nickname}}</view>
+  <view class='userName'>{{loginState?userInfo.info.nickname:'未登录'}}</view>
   <view style='background:{{color}}' class='money'>
-    <view class='title'>{{userInfo.info.levelname}}</view>
+    <view wx:if='{{loginState}}' class='title'>{{userInfo.info.levelname}}</view>
+    <view wx:else class='title' bindtap="toLogin">点击登录</view>
     <!-- <view class='value'>{{userInfo.info.yue}}</view> -->
     <!-- <view class='icon'>
       <image src='./res/img/icon_right_click.png'></image>
@@ -55,5 +56,6 @@
 
 <!-- <navigator hover-class="none" wx:if='{{userInfo.type == "0"}}' class='joinBtn' url='/pages/join/message/message' open-type='navigate'><theme-view type="themeFont">加入合伙人</theme-view></navigator> -->
 
+<view class="oldPr" wx:if='{{userInfo.type != 1}}' bindtap="oldPr">老会员</view>
 
 <nav-bottom selected-index='3'></nav-bottom>

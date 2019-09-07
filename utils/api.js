@@ -84,5 +84,6 @@ module.exports = {
   parent: data => request('mojing.tuijian.fenxiang_parent', data),
   serverUri,
   barTitle,
-  getReferList: () => request('mojing.my.tuijian_log')
+  getReferList: () => request('mojing.my.tuijian_log'),
+  oldPrApi: () => request('mojing.index.is_auto')
 }

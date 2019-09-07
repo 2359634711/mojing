@@ -7,6 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    loginFlag: true,
     loadingFlag: false, //加载动画
     goodStatus: [{
       statusTitle: '待付款',
@@ -60,7 +61,29 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
+  onLoad: function(options) { // 查看是否授权
+    wx.getSetting({
+      succes: res => {
+        if (res.authSetting['scope.userInfo']) {
+          // 已经授权，可以直接调用 getUserInfo 获取头像昵称
+        } else {
+          this.setData({
+            loginFlag: false
+          })
+          // wx.redirectTo({
+          //   url: '/pages/user/user',
+          //   success: function(res) {
+          //     wx.showToast({
+          //       title: '请先授权哟~',
+          //       icon: 'none',
+          //       duration: 800,
+          //     })
+          //   },
+          // })
+          // return
+        }
+      }
+    })
     if (options.id) {
       this.changeNav(options.id)
     }
@@ -93,7 +116,7 @@ Page({
         })
       } else {
         that.setData({
-          orderList: data.order_list||[]
+          orderList: data.order_list || []
         })
       }
     })

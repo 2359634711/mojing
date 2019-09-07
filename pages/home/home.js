@@ -56,9 +56,9 @@ Page({
             }
           })
         } else {
-          wx.redirectTo({
-            url: '/pages/login/login'
-          })
+          // wx.redirectTo({
+          //   url: '/pages/login/login'
+          // })
         }
       }
     })

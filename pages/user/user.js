@@ -7,6 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    loginState: true,
     color: '',
     bgImg: "",
     userInfo: {},
@@ -58,7 +59,25 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  toLogin() {
+    wx.redirectTo({
+      url: '/pages/login/login',
+    })
+  },
   onLoad: function(options) {
+    wx.getSetting({
+      success: res => {
+        if (res.authSetting['scope.userInfo']) {} else {
+          this.setData({
+            loginState: false
+          })
+          // wx.redirectTo({
+          //   url: '/pages/login/login',
+          // })
+          // return
+        }
+      }
+    })
     this.setData({
       color: app.globalData.themeColor
     })
@@ -87,6 +106,14 @@ Page({
         complete: function(res) {},
       })
     } else {
+      if (!this.data.loginState) {
+        wx.showToast({
+          title: '请授权登录哟~',
+          icon: 'none',
+          duration: 800
+        })
+        return
+      }
       if (item.url) {
         wx.navigateTo({
           url: item.url
@@ -205,7 +232,11 @@ Page({
   onPullDownRefresh: function() {
 
   },
-
+  oldPr() {
+    api.oldPrApi().then(res => {
+      console.log(res)
+    })
+  },
   /**
    * 页面上拉触底事件的处理函数
    */
